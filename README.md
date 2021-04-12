@@ -1,6 +1,6 @@
 # JavaScript30 - 一个月纯 JS 挑战
 
-[原项目传送门](https://github.com/soyaine/JavaScript30)
+[原项目传送门](https://github.com/wesbos/JavaScript30)
 
 偶然的机会了解到了这项挑战，对于一个刚刚开始使用 github 以及学习 JS 的小白来说，这个项目十分友好且足够有趣。
 
