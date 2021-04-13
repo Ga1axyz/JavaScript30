@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width"> --><!--加了要出问题。。。此处待研究原因-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet' type='text/css'><!--引入字体-->
+    <title>Some Words</title>
+</head>
+<body>
+    <div class="panels">
+        <div class="panel panel1">
+            <p>Take</p>
+            <p>All</p>
+            <p>Time</p>
+        </div>
+        <div class="panel panel2">
+            <p>Do What</p>
+            <p>I</p>
+            <p>Can</p>
+        </div>
+        <div class="panel panel3">
+            <p>Hope U</p>
+            <p>Can</p>
+            <p>Feel</p>
+        </div>
+        <div class="panel panel4">
+            <p>Wish To</p>
+            <p>Give</p>
+            <p>You</p>
+        </div>
+        <div class="panel panel5">
+            <p>All</p>
+            <p>You</p>
+            <p>Want</p>
+        </div>
+    </div>
+    
+    <script>
+        const panels = document.querySelectorAll('.panel');
+
+        function toggleOpen() {
+            this.classList.toggle('open');
+        }
+
+        panels.forEach(panel => panel.addEventListener('click',toggleOpen));    
+    </script>
+</body>
+</html>
